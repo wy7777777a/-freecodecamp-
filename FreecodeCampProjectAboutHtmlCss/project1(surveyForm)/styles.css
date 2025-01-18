@@ -1,0 +1,98 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  display: flex; /* 使用 Flexbox 来居中 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 100vh; /* 使 body 高度占满整个视窗 */
+  margin: 0; /* 清除默认 margin */
+  background-color: #f0f0f0; /* 背景颜色稍作调整，避免纯白背景太单调 */
+}
+
+h1, p {
+  font-style: italic;
+}
+
+div {
+  border: 5px solid;
+  max-width: 1000px;
+  min-width: 500px;
+  width: 500px;
+  background: linear-gradient(to bottom, #E3F2FD, #FFFFFF);
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px auto; /* 垂直居中添加一些 margin */
+  background-image:url('https://images.pexels.com/photos/247306/pexels-photo-247306.jpeg');
+
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 改为居中对齐所有表单元素 */
+  text-align: center;
+  width: 100%;
+}
+
+label {
+  display: flex; /* Flexbox to align horizontally */
+  align-items: center; /* Vertically center the input and label */
+  justify-content: flex-start; /* Align label and input to the left */
+  margin-bottom: 15px; /* Add space below the label */
+}
+
+label span {
+  margin-right: 10px; /* Space between label text and input field */
+}
+
+input, select, textarea {
+  width: 100%; /* Make inputs take up full width */
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+  height: 30px;
+}
+
+#number {
+  width: 100px; /* Specific width for number input */
+}
+
+select {
+  height: 30px;
+}
+
+#submit {
+  display: block;
+  margin: 20px auto; /* Center align the submit button */
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #1DA1F2;
+  color: white;
+  font-size: 15px;
+  font-family: Arial;
+  transition: background-color 0.15s;
+}
+
+#submit:hover {
+  background-color: #50C878;
+}
+
+textarea {
+  resize: vertical; /* Allow users to resize the textarea vertically */
+  width: 100%;
+  height: 100px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 10px; /* Space between the checkbox/radio button and label */
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: auto; /* Ensure radio and checkbox buttons maintain their natural size */
+}

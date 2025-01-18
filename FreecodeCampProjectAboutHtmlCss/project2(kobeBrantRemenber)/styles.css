@@ -1,0 +1,151 @@
+body{
+ 
+  font-family: Arial,sans-serif;
+    background-color:#ffff;
+    
+  
+   
+   background: linear-gradient(to right, #552583, #FDB927);
+  }
+  
+  img{
+    display:block;
+  }
+  
+  #image{
+    max-width:100%;
+    margin:0 auto;
+  
+  }
+  
+  pre{
+    font-size:20px;
+    font-style:italic;
+    color:#ffff
+  }
+  
+  strong{
+    color:red
+  }
+  
+  
+  h1{
+  font-size:40px;
+  font-style:italic;
+  
+  font-family:sans-serif;
+  text-align:center;
+  }
+  
+  main{
+     max-width:80%;
+     min-width:80%;
+     border:5px solid white;
+     margin:0 auto;
+  
+  }
+  
+  .div-fix{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90%;
+  }
+  
+  a{
+    color:black;
+    font-size:25px;
+  }
+  
+  h2{
+    font-style:italic;
+    font-family:arial;
+    font-size:30px;
+  
+   text-align:center;
+  }
+  
+  .kobe{
+    display:inline-block;
+    margin-left:20px;
+    margin:20px;
+    height:500px;
+    width:500px;
+    object-fit:cover;
+  
+  }
+  
+  .nba-img {
+    display: flex;
+    justify-content: space-between; /* 确保图片之间有固定间隔 */
+    align-items: center; /* 垂直居中对齐图片 */
+    gap: 20px; /* 为图片设置固定间隔 */
+  }
+  
+  .kobe {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    /* 如果需要进一步调整图片的外边距，可使用以下样式 */
+    margin: 20px;
+  }
+  
+  
+  .img-div{
+    display:flex;
+     justify-content: space-between;  /* 子元素之间的间距最大化 */
+     min-width:100%;
+     max-width:100%;
+     text-align:center;
+  }
+  
+  
+  
+  .honors-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .honors-content {
+    display: flex;
+    flex-direction: row-reverse; /* 图片在右侧，文本在左侧 */
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .kobe-honors-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 20px; /* 图片左侧的间距 */
+  }
+  
+  .honors-text {
+    flex: 1;
+  }
+  
+  .kobe-honors-img{
+    width:500px;
+    height:700px;
+    
+  
+  }
+  
+  
+  #kobe-honors-img2,#kobe-honors-img3{
+      height: 300px;
+  }
+  
+  #image {
+    width: 80%;  /* 设置图片宽度为100% */
+  
+    height:auto;
+   
+    object-fit: cover; /* 保持图片比例，填充整个区域 */
+  }
+  
+  a{
+    margin:0 auto;
+  }
+  

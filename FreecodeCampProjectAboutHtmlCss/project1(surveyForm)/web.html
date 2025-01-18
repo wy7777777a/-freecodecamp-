@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8">
+    <title>
+     Survey Form
+    </title>
+    <link rel = "stylesheet" href = "styles.css">
+  </head>
+
+  <body>
+    <div class = "form-div">
+    <h1 id = "title">
+   Survey Form
+    </h1>
+
+    <p id = "description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+
+    <form id = "survey-form" action="https://formsubmit.com/@w18178865609@gmail.com" method="POST">>
+      <label for = "name" id = "name-label">
+        Name:
+      <input id = "name" type = "text" required
+      placeholder = "enter your name"></input>
+      </label>
+
+      <label id = "email-label" for = "email">
+        Email:
+      <input type = "email" id = "email" required
+      placeholder = "enter your email">
+      </input>
+      </label>
+
+      <label id = "number-label" for = "number">
+        Number:
+      <input id = "number" min = "0" max = "9" type = "number" placeholder = "number">
+      </input>
+      </label>
+
+      <select id = "dropdown">
+        <option class = "select-title">
+          What's your major?
+        </option>
+    
+        <option>
+          Computer Science
+        </option>
+
+        <option>
+          Chinese
+        </option>
+
+        <option>
+          English
+        </option>
+
+        <option>
+         Valleyball
+        </option>
+      
+      </select>
+
+<p class = "question1">
+  Do you think you can get a job after graduation?
+</p>
+      <label for = "Yes">
+      <input id="Yes" type = "radio" value="Yes" name = "question1" />
+       Yes!
+      </label>
+    
+      <label for = "Not">
+      <input id = "Not" type = "radio" value = "Not" name = "question1" />
+       Not
+      </label>
+       
+
+
+  <p class="question2">Do you want to study with our class?</p>
+      <label for = "two">
+      <input id = "two" type = "radio" value = "two" name = "two" />
+      Yes!
+      </label>
+      
+     
+      <label for = "two">
+       <input id = "two" type = "radio" value = "two" name = "two" />
+       Not
+      </label>
+     
+      
+
+   <p class = "question3">Where you see us class's information?</p>
+   <label for = "checkbox1">
+    <input id = "checkbox1" type = "checkbox"  value = "checkbox1" />
+    Website
+  </label>
+
+   <label for = "checkbox2">
+    <input id = "checkbox2" type = "checkbox"  value = "checkbox2" />
+    Friends
+   </label>
+
+   <label for = "checkbox3">
+    <input id = "checkbox3" type = "checkbox"  value = "checkbox3" />
+    School
+   </label>
+
+   <label for = "checkbox4">
+    <input id = "checkbox4" type = "checkbox"  value = "checkbox4" />
+    Other
+   </label>
+
+<p class  "question4">Write down your sugesstion , if you think we can do more,thanks!</p>
+    <textarea rows="5" cols="30"></textarea>
+
+    <input id = "submit" type = "submit"/>
+
+    
+    </form>
+</div>
+ 
+  </body>
+
+</html>
