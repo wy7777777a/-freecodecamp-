@@ -94,3 +94,17 @@ CSS3：实现页面布局、样式设计及响应式适配。
 为学习HTML和CSS提供了完整的案例实践，进一步熟悉了前端网页开发的基本流程和常用技术。
 
 </pre>
+
+
+<h1>
+  项目名称：JavaScript Documentation 网页设计
+</h1>
+<pre>
+  4、项目描述：使用 HTML、CSS 和 JavaScript 开发了一个响应式网页，提供了关于 JavaScript 的详细文档内容。网页采用了左右分栏布局设计，左侧为导航按钮，右侧为文档内容区域，提升了用户的浏览效率。通过按钮实现页面导航功能，每个按钮对应特定的文档章节。
+</pre>
+
+![image](https://github.com/user-attachments/assets/e7f316fa-331a-47f5-a924-8d409123a66c)
+
+![image](https://github.com/user-attachments/assets/676a6f89-e5df-4e7a-a636-734a0266201a)
+
+
