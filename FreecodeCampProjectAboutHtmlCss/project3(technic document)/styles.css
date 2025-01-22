@@ -1,0 +1,132 @@
+#btn{
+  display:block;
+  height:46px;
+  width:450px;
+
+  background-color: #4CAF50;
+  color: white;
+  font-size:20px;
+
+  border-left:none;
+  border-right:none;
+
+  border:2px solid gray;
+  font-family:Arial;
+  padding:left 1px;
+  
+  border-right:none;
+  text-align: left;
+  padding-left:20px;
+}
+
+#btn:hover{
+  background-color: #45a049;
+}
+
+#btn:after {
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5); /* 示例 */
+}
+
+
+#header,.right-header{
+  font-size:40px;
+  font-family:Times;
+ 
+}
+
+
+.left-all{
+  border:2px solid gray;
+  width:500px;
+  border-left:none;
+  border-top:none;
+  border-bottom:none;
+  
+  display:inline;
+}
+
+
+
+.content,ul{
+  font-size:25px;
+  font-family:Arial;
+  
+}
+
+ul{
+  margin-left:40px;
+
+}
+
+code{
+  font-size:10px;
+  font-family:Arial;
+  
+}
+
+code pre {
+  background-color: gray; /* 背景色为灰色 */
+  color: white;           /* 文字颜色为白色 */
+  font-family: Consolas, Monaco, 'Courier New', monospace; /* 使用等宽字体 */
+  text-align:middle;
+  padding:0 auto;
+  border-radius: 5px;     /* 圆角边框 */
+  overflow-x: auto;
+  width:900px;       /* 防止横向溢出，添加滚动条 */
+}
+
+
+body{
+  display:flex;
+}
+
+.right-all{
+  margin-left:40px;
+}
+
+pre{
+  font: size 10px;
+}
+
+
+
+
+.left-all {
+  position: fixed; /* 固定左侧内容 */
+  left: 0;          /* 靠左对齐 */
+  top: 0;           /* 从页面顶部开始 */
+  width: 450px;     /* 设置固定宽度 */
+  height: 100%;     /* 高度占满屏幕 */
+}
+
+.right-all{
+  margin-left:450px;
+}
+
+.right-body {
+  font-size: 16px; /* 根据需要调整字体大小 */
+  line-height: 1.6;
+}
+
+.right-header {
+  font-size: 24px; /* 调整标题的字体大小 */
+}
+
+.content {
+  font-size: 14px; /* 调整内容文字的字体大小 */
+}
+
+.example {
+  font-size: 13px; /* 调整列表项的字体大小 */
+}
+
+
+
+
+
+
+
+
+
+
+
